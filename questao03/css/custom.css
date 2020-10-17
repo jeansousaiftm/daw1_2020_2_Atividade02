@@ -1,0 +1,93 @@
+body {
+	font-family: Arial;
+}
+
+table#classificacao {
+	margin: 0 auto 0 auto;
+	border: 1px solid #DDDDDD;
+	border-collapse: collapse;
+	/*border-width: 1px;
+	border-style: solid;
+	border-color: #DDDDDD;*/
+}
+
+table#classificacao thead td {
+	font-size: 13px;
+	color: #999999;
+	font-weight: bold;
+	text-align: center;
+}
+
+table#classificacao tbody td {
+	font-size: 14px;
+	color: #666666;
+	text-align: center;
+	background-color: #FFFFFF;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+table#classificacao tbody td:nth-child(2n+1) {
+	background-color: #F7F7F7;
+}
+
+table#classificacao tbody td:first-child {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #FFFFFF!important;
+}
+
+table#classificacao tbody td:nth-child(2) {
+	font-size: 14px;
+	color: #666666;
+	font-weight: bold;
+	text-align: left;
+}
+
+table#classificacao tbody td:nth-child(3) {
+	font-size: 14px;
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+}
+
+table#classificacao tbody tr.separacao td {
+	border-bottom: 2px solid #CCCCCC!important;
+}
+
+table#classificacao tfoot .classificacao {
+	font-size: 10px;
+	color: #8F8F8F;
+}
+
+table#classificacao tfoot .sigla {
+	font-size: 10px;
+	color: #555555;
+	font-weight: bold;
+}
+
+table#classificacao tfoot .significado {
+	font-size: 10px;
+	color: #555555;
+}
+
+.c1 {
+	color: #003366!important;
+}
+
+.c2 {
+	color: #1398BE!important;
+}
+
+.c3 {
+	color: #DE9800!important;
+}
+
+.c4 {
+	color: #CCCCCC!important;
+}
+
+.c5 {
+	color: #C91B04!important;
+}
