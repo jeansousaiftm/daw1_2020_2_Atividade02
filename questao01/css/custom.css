@@ -1,0 +1,66 @@
+body {
+	font-family: Arial;
+	font-size: 14px;
+	background-color: #EEEEEE;
+}
+
+div.container {
+	background-color: #FFFFFF;
+}
+
+hr.separador {
+	color: #BBBBBB;
+}
+
+#cabecalho > img {
+	/*margin-top: 5em;
+	margin-bottom: 2em;
+	margin-left: auto;
+	margin-right: auto;*/
+	margin: 5em auto 2em auto; /* top, right, bottom, left */
+}
+
+#corpo {
+	margin-top: 5em;
+}
+
+#corpo form label {
+	font-weight: bold;
+	padding-top: 7px;
+	margin-bottom: 0px;
+}
+
+#corpo form .labels {
+	text-align: right;
+}
+
+#corpo form input {
+	font-size: 14px;
+}
+
+#corpo form .links {
+	margin-bottom: 15px;
+}
+
+#corpo form a {
+	color: #337AB7;
+}
+
+#corpo form button {
+	font-size: 14px;
+	background-color: #32A041;
+	float: right;
+}
+
+#rodape {
+	margin-top: 10em;
+}
+
+#rodape-esq {
+	margin-bottom: 2em;
+}
+
+#rodape-dir {
+	margin-bottom: 2em;
+	text-align: right;
+}
